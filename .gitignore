@@ -24,4 +24,3 @@ dist-ssr
 *.sw?
 
 # Settings Files
-src/api/axios.jsx
