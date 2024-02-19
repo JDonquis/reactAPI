@@ -1,10 +1,10 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api',
+  baseURL: 'https://phplaravel-1216910-4323879.cloudwaysapps.com/api',
   withCredentials: true,
   withXSRFToken: true,
-  browserBaseURL: 'http://',
+  browserBaseURL: 'https://',
 });
 
 // Interceptor para actualizar los headers antes de cada solicitud
